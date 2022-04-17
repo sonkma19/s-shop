@@ -1,0 +1,144 @@
+.shop {
+    min-height: 30rem;
+    position: relative;
+}
+.shop__header {
+    margin-top: 4rem;
+}
+.all__product{
+    min-height: 30rem;
+}
+.filter,
+.filter__right {
+    display: flex;
+    justify-content: space-between;
+}
+.filter__left__select {
+    height: 3rem;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    border: 1px solid #ddd;
+    outline: none;
+}
+.filter__right {
+    align-items: center;
+}
+.filter__right p {
+    margin-right: 1rem;
+    margin-bottom: 0;
+}
+.filter__search {
+    border-left: 1px solid #2e2e;
+    cursor: pointer;
+}
+.filter__search span {
+    margin-left: 1rem;
+    color: #ffb900;
+}
+.sidebar--active {
+    border: 1px solid #ddd;
+    margin-top: 2rem;
+    transition: 0.3s ease-in-out;
+    height: 10.5rem;
+}
+.sidebar {
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+.ant-col-12 {
+    display: block;
+    flex: 1 0 50%;
+    max-width: 70%;
+}
+.ant-col-4 {
+    position: relative;
+}
+.ant-col-4 span {
+    position: absolute;
+    top: 5px;
+    right: -50px;
+}
+.ant-pagination{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.sideber__checkbox__item {
+    text-align: start;
+}
+.sideber__checkbox__item label {
+    margin-left: 1rem;
+}
+.sidebar__item--decs{
+    font-size: 1rem;
+}
+.sidebar__item--decs span{
+    color: #e9ac05;
+    font-size: 1.1rem;
+}
+
+.shop__content {
+    padding: 10rem 0;
+}
+.shop__not-product {
+    min-height: 20rem;
+}
+.not-product__title {
+    padding: 7rem 0 0;
+}
+.shopping {
+    width: 12rem;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid #ffb900;
+    height: 3rem;
+    background-color: #ffb900;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.shopping:hover {
+    background-color: #fff;
+    color: #ffb900;
+}
+@media (max-width: 1024px) {
+    
+    .filter__right{
+        margin-top: 1rem;
+    }
+    .sidebar--active{
+        height: 17rem;
+    }
+    .siba{
+        width: 100%;
+    }
+    .ant-col-12{
+        max-width: 60%;
+    }
+    .ant-col-4 span{
+        right: -60px;
+    }
+}
+@media (max-width: 576px) {
+    .filter {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .filter__right{
+        margin-top: 1rem;
+    }
+    .sidebar--active{
+        height: 17rem;
+    }
+    .siba{
+        width: 100%;
+    }
+    .ant-col-12{
+        max-width: 60%;
+    }
+    .ant-col-4 span{
+        right: -60px;
+    }
+}

@@ -1,0 +1,25 @@
+.notfind{
+    min-height: 70vh;
+}
+.notfind__img img{
+    padding: 2rem;
+    opacity: .5;
+    animation: 2s ease-in-out 0s infinite normal none running fade-in;
+}
+.notfind__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.notfind__content--title{
+    font-size: 1.2rem;
+    max-width: 26rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.notfind__content--decs{
+    font-size: 1rem;
+}
+.notfind__content--decs a:hover{
+    color: rgb(6, 222, 6);
+}

@@ -1,0 +1,89 @@
+
+.login{
+    margin-top: 4rem;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    min-height:30rem ;
+}
+.login__content{
+    display: flex;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+}
+.login__item{
+    max-width: 25rem;
+    /* height: 25rem; */
+    width: 100%;
+}
+
+.login__nav__title{
+    width: 100%;
+    text-align: start;
+    color: #666;
+}
+.login__nav input{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 1px solid #888;
+    padding-left: 2rem;
+    outline: none;
+}
+.login__nav{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: .4rem 0;
+}
+
+.login__nav span {
+    margin-bottom: 12px !important;
+}
+.login__nav__icon{
+    position: absolute;
+    margin-top: 32px;
+    left: 8px;
+    transform: translateY(30%);
+}
+
+.login__button{
+    width: 200px !important;
+    margin: auto;
+}
+.login__button button{
+    width: 100%;
+    margin-top: .4rem;
+    height: 2.5rem;
+    background-color: #ffb900;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ffb900;
+    outline: none;
+    cursor: pointer;
+}
+.login__button__item{
+    margin-top: .3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login__button__item p,.login__error{
+    margin: 0;
+}
+.login__error{
+    color: red;
+}
+.login__button__item a{
+    color: blue;
+}
+.login__button__item a:hover{
+    color: #ffb900;
+}
+
+.login__button span{
+    margin-left: 20px;
+}

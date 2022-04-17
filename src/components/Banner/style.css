@@ -1,0 +1,98 @@
+.banner{
+    width: 100%;
+    min-height: calc(100vh - 12rem);
+    background-color:#f1f1f1 ;
+}
+.banner__content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: calc(100vh - 12rem);
+}
+.banner__left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner__left__list{
+    text-align: start;
+}
+.banner__title{
+    font-weight: 500;
+    margin: 0;
+}
+.banner__name{
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+.banner__left__button{
+    margin: 1rem 0 2rem;
+}
+.button__item{
+    width: 8rem;
+    height: 3.5rem;
+    background-color: #222;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid #222;
+}
+.button__item:hover{
+    background-color: #f1f1f1;
+    color: #222;
+    cursor: pointer;
+}
+.banner__right{
+    width: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner__right__bg{
+    width: 25rem;
+    height: 25rem;
+    background-color: #222;
+    border-radius: 50%;
+   
+}
+.banner__right__bg img{
+    width: 100%;
+    transform: rotate(-30deg);
+    background-image: none;
+   
+}  
+.ant-carousel .slick-dots-bottom{
+    margin: 0;
+} 
+@media(max-width: 768px){
+    .banner__left,.banner__right{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .banner__content{
+        flex-wrap: wrap;
+    }
+    .banner__left__list{
+        text-align: center;
+    }
+    
+}
+@media(max-width: 415px){
+    .banner__right__bg{
+        height: 15rem;
+        width: 15rem;
+    }
+    .button__item {
+        width: 8rem;
+        height: 3.5rem;
+        background-color: #222;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+        outline: none;
+        border: 1px solid #222;
+    }
+}

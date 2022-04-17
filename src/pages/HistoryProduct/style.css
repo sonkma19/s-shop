@@ -1,0 +1,52 @@
+.history{
+    min-height: 35rem;
+    padding: 5rem 0;
+}
+.empty{
+    min-height: 20rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.empty__content{
+    width: 100%;
+    padding: 10rem 0;
+}
+.ant-tabs-tab-btn{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.history__order,.history__order__img img{
+    width: 100%;
+}
+.history__order__img{
+    /* width: 100%; */
+    margin-bottom: 1rem;
+}
+.history__order__content{
+    text-align: start;
+}
+.history__order--title,
+.history__order--quantity,
+.history__order--price{
+    color: #222;
+    font-size: 1.2rem;
+}
+.history__order--title,.history__order--price{
+    font-weight: 500;
+}
+.history__order--title:hover{
+    color: #ffb900;
+}
+.history__button{
+    text-align: start;
+}
+.history__button--cancel{
+    margin-right: 1rem;
+}
+.history__info{
+    text-align: start;
+    color: red;
+    font-size: 1rem;
+    font-weight: 400;
+}

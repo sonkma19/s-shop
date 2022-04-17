@@ -1,0 +1,84 @@
+.signup{
+    margin-top: 4rem;
+    min-height: 30rem;
+}
+.signup__content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.signup__nav{
+    max-width: 25rem;
+    height: 25rem;
+    width: 100%;
+}
+.signup__item{
+    display: flex;
+    flex-wrap: wrap;
+    margin: .4rem 0;
+    position: relative;
+}
+.signup__item label{
+    width: 100%;
+    text-align: start;
+    color: #666;
+}
+.signup__item input{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: 1px solid #888;
+    padding-left: 2.5rem;
+    outline: none;
+}
+.sign__up__icon{
+    position: absolute;
+    top: 30px;
+    font-size: 1.2rem;
+    color: #666;
+    left: 10px;
+}
+.signup__button{
+    width: 250px !important;
+    margin: auto;
+}
+.signup__button button{
+    width: 100%;
+    margin-top: .4rem;
+    height: 2.5rem;
+    background-color: #ffb900;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ffb900;
+    outline: none;
+    cursor: pointer;
+    width: 200px;
+}
+
+
+.signup__submit__item{
+    margin-top: .3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.name-btn{
+    margin-right: 10px !important;
+}
+.signup__error{
+    margin: 0;
+    color: red;
+}
+.signup__submit__item p{
+    margin: 0;
+}
+.signup__submit__item a{
+    color: blue;
+}
+.signup__submit__item a:hover{
+    color: #ffb900;
+}
+

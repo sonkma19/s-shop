@@ -1,0 +1,28 @@
+.sale{
+    width: 100%;
+}
+.sale__content{
+    width: 33.3333333333%;
+}
+.sale__item{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.sale__item img{
+    width: 100%;
+    display: block;
+    /* object-fit: cover; */
+    height: 100%;
+    transition: .5s ease;
+}
+.sale__item:hover img{
+    transform: scale(1.1);
+    opacity: .6;
+    cursor: pointer;
+}
+@media(max-width: 768px){
+    .sale__content{
+        width: 100%;
+    }
+}

@@ -1,0 +1,25 @@
+.scroll{
+    background-image: linear-gradient(#27be57,#aef338);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    z-index: 109;
+    position: fixed;
+    right: 20px;
+    outline: none;
+    border: 1px solid #2e2;
+    bottom: 35px;
+    transition: .4s ease-in-out;
+    color: #fff;
+    cursor: pointer;
+  }
+  .scroll__ctive{
+    right: -20px;
+    transition: .4s ease-in-out;
+    /* bottom: 35px; */
+    position: fixed;
+  }
+  .scroll__top{
+    font-size: 2rem;
+    line-height: 3rem;
+  }

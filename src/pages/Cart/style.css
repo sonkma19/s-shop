@@ -1,0 +1,133 @@
+.cart{
+    margin-top: 3rem;
+    min-height: 30rem;
+}
+.cart__content{
+    padding: 2rem;
+    box-shadow: 1px 2px 3px #c5c5c5;
+    box-sizing: border-box;
+    min-height: 15rem;
+}
+
+.cart__item{
+    border-top: 1px solid #ddd;
+    padding: 1rem 0;
+}
+.mr{
+    padding: 0 1rem;
+}
+.pr{
+    padding: 0;
+}
+.cart__img{
+    width: 100%;
+}
+.cart__img img{
+    width: 100%;
+}
+.cart__title,.cart__total--title,.cart__icon--start{
+    text-align: start;
+}
+.cart__icon--start p{
+    font-size: 1rem;
+    color: #666;
+    font-weight: 500;
+}
+.cart__icon--end{
+    text-align: end;
+}
+.name--product{
+    color: #222;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.cart__remove,.cart__price{
+    font-size: 1rem;
+}
+.cart__remove span{
+    margin-left: .3rem;
+}
+
+.cart__remove:hover{
+    color: #ffb900;
+    cursor: pointer;
+}
+.cart__quantity button{
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.disable{
+    opacity: .5;
+    cursor: no-drop !important;
+}
+.cart__quantity span{
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.4rem;
+    outline: none;
+    border: 1px solid #e8e8e8;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+    line-height: 2.4rem;
+}
+.name--product:hover{
+    color: #ffb900;
+}
+.cart__total{
+    box-shadow: 1px 2px 3px #c5c5c5;
+    width: 100%;
+    padding: 2rem;
+}
+.cart__amuont{
+    display: flex;
+    justify-content: space-between;
+    margin: .3rem 0;
+}
+.cart__amount--title,.cart__amount--price{
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 500;
+    /* padding: .5rem 0; */
+}
+.cart__amount--price{
+    color: #888;
+}
+.cart__button{
+    margin-top: 1rem;
+}
+.cart__button a:hover{
+    background-color: #fff;
+    border:1px solid #222;
+    color: #222;
+}
+.cart__button a{
+    color: #fff;
+    height: 3rem;
+    width: 100%;
+    background-color: #255ff0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+@media (max-width:768px) {
+    .cart__sum{
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .cart__icon--start,.cart__icon--end{
+        margin-top: .5rem;
+    }
+}
