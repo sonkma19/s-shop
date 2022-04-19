@@ -151,7 +151,7 @@ const Header = () => {
                     <div className="top">
                         <div className="header__top__phone">
                             <MenuOutlined onClick={() => onMenu(setMenu)} className="menu--outline" />
-                            <p className="header__phone--item"><FontAwesomeIcon icon={faPhone} /> +09 675 88888</p>
+                            <p className="header__phone--item"><FontAwesomeIcon icon={faPhone} /> +09 7152 3763 </p>
                         </div>
                         <div className="header__top__right">
                             {useSelect === null ? "" :
